@@ -1,0 +1,73 @@
+.formulario {
+  display: grid;
+  grid-template-columns: repeat(2, auto);
+  justify-content: center;
+  gap: 2rem;
+
+}
+
+.formulario button {
+  margin: 10px auto;
+  width: 100px;
+  padding: 1rem;
+  grid-column: 1 / 3;
+  
+}
+
+.estilos {
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 30px;
+
+
+
+}
+
+.estilos input{
+    width: 300px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+    padding: 20px;
+
+}
+
+.estilos button {
+  margin: 1rem auto;
+}
+
+.estilos img {
+  width: 400px;
+  margin: 0 auto;
+
+}
+
+.input {
+    background-color: rgb(185, 200, 242);
+}
+
+.salir {
+    background-color: crimson;
+    padding: 10px;
+}
+
+
+
+
+
+table {
+    border-collapse: collapse;
+    width: 80%;
+    font-family: Arial, Helvetica, sans-serif;
+    /* margin-top: 30px; */
+    margin: 30px auto 0 auto;
+    
+    
+  }
+  table, th, td {
+    border: 1px solid black;
+  }
+  th, td {
+    padding: 8px;
+    text-align: left;
+  }
+

@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Leer Excel en Web</title>
+</head>
+
+<link rel="stylesheet" href="./style.css">
+<!-- <script src="https://unpkg.com/read-excel-file@5.x/bundle/read-excel-file.min.js"></script> -->
+<script src="https://cdnjs.cloudflare.com/ajax/libs/xlsx/0.18.5/xlsx.full.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+
+
+<body>
+
+    <div class="estilos">
+        <h1>Leer archivo excel en la web</h1>
+        <h2>Selecciona un archivo: </h2>
+        <input class="input" type="file" id="input-excel" accept=".xlsx">
+    </div>
+    
+
+
+    <div id="vista-previa"></div>
+
+    <!-- Contenedor para el gráfico -->
+    <h3 class="estilos">Gráfca</h3>
+    <canvas id="excelChart" width="400" height="200"></canvas>
+
+
+    <!--Boton de Salir-->
+    <button class="salir estilos" onclick="location.href='index.html'">Salir</button>
+    
+
+    <!--Plugins-->
+
+
+    <script src="script.js"></script>
+
+    
+
+</body>
+</html>
